@@ -35,3 +35,13 @@ const reactElement = {
 const root = document.querySelector("#root");
 
 customRender(reactElement, root); // inject the react element into the root element
+
+/*
+const customObject = React.createElement(
+  "a",
+  { href: "https://www.google.com", target: "_blank" },
+  "Click me to visit Google !"
+);
+
+This can be directly used in the ReactDOM.render() method to render the element in the DOM tree.
+*/
